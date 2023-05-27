@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<style class="text/css">
+    body{
+	padding:0;
+	margin:0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(backimg.jpg);
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+
+}
+.heading{
+	margin-top: 100px;
+	text-transform: uppercase;
+    color: white;
+
+}
+.heading h1{
+	font-size: 38px;
+	line-height: 10px;	
+}
+
+.heading h2{
+	font-size: 16px;	
+    letter-spacing: 5px;
+    font-weight: lighter           ;
+}
+
+form{
+	margin-top: 50px;
+}
+.form_control{
+	width: 600px;
+    background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid;
+	color: rgb(243, 238, 234);
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input{
+	height: 45px;
+}
+form .submit{
+	background: #ff8800;
+	border-color: transparent;
+	color: rgb(2, 2, 2);
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+form .submit:hover{
+	background-color : #b95300;
+	cursor: pointer;
+}
+form .btn{
+	padding: 10px 20px;
+	background-color: #ff8800;
+	font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+form .btn:hover{
+	background-color : #b95300;
+	cursor: pointer;
+}
+
+.navbar{
+
+background-color: transparent;
+margin-left: 33px;
+margin-top: -14px;
+
+}
+.navbar li{
+float: left;
+margin: 30px 20px;
+
+
+}
+
+.navbar li a {
+    margin: 11px;
+    text-decoration: none;
+    padding: 3px 3px;
+    color: rgb(241, 233, 233);
+    font-weight: 600;
+}
+
+.navbar li a:hover{
+color: yellow;
+
+}
+
+.navbar ul{
+
+overflow: auto;
+}
+
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="book.html">Booking</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+            <div class="heading">
+                <h1>Contact Us</h1>
+                <h2>We are always ready to serve you!</h2>
+            </div>
+            <div class="form">
+                <form>
+                <input type="text" name="name" class="form_control" placeholder="Your Full Name" required><br>
+                <input type="email" name="email" class="form_control" placeholder="Your Email Address" required><br>
+                <textarea name="message" class="form_control" placeholder="Your Message Here" rows="9"></textarea><br>
+                <input type="submit" class="form_control submit" value="SEND MESSAGE"><br>
+                <button type="button" class="btn"><a href="index.html">HOME</a></button>
+                </form>
+        
+            </div>
+      
+</body>
+</html>

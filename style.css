@@ -1,0 +1,146 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.navbar{
+
+    background-color: transparent;
+    margin-left: 45px;
+    margin-top: -16px;
+    
+}
+.navbar li{
+    float: left;
+    margin: 30px 20px;
+    
+    
+}
+
+.navbar li a{
+    margin: 5px;
+    text-decoration: none;
+    padding: 3px 3px;
+    color: rgb(241, 233, 233);
+
+}
+ 
+.navbar li a:hover{
+   color: yellow;
+
+}
+
+.navbar ul{
+    
+    overflow: auto;
+}
+
+
+.hero_image{
+    background: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(audi.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.img_responsive{
+    max-width: 100%;
+}
+
+.hero_wrapper{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero_wrapper h1{
+    font-size: 3.5rem ;
+    text-align: center;
+}
+h2{
+    font-size: 2.5rem ;
+    text-align: center;
+}
+p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(41, 41, 38);
+    font-weight: 500;
+    font-size: medium ;
+    text-align: center;
+}
+.form_code{
+    text-align: center;
+}
+.form_code .post_code {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .4rem;
+    outline: none;
+    border: none;
+    font-family:Helvetica, sans-serif;
+    font-weight: normal;
+
+}
+
+.form_code button{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 15%;
+    padding: .3rem;
+    border-radius: 2rem;
+    background-color: yellow;
+    border: none;
+    margin-top: 1rem;
+    color: rgb(0, 0, 0);
+    font-family:Helvetica, sans-serif;
+    font-weight: normal;
+    
+}
+
+.form_code button:hover{
+    cursor: pointer;
+    background-color: rgb(160, 160, 44);
+}
+.hero_wrapper p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    font-weight: 500;
+    font-size: medium ;
+    text-align: center;
+    font-size: 20px;
+}
+
+.product {
+    margin-top: 1rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product_item {
+    float: left;
+    width: 30%;
+    margin-left: 1rem;
+}
+.product_item button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+
+    button {
+    width: 100%;
+    
+    }
